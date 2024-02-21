@@ -1,6 +1,7 @@
 class DynamicArray {
 	private:
-		int array;
+		int top;
+		int *array;
 		void resize();
 
 	public:

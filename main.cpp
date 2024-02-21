@@ -6,6 +6,6 @@ using namespace std;
 
 int main () {
 	DynamicArray array;
-	cout << array.size();
+	cout << array.size() << endl;
 	return 0;
 }
