@@ -2,7 +2,7 @@ class DynamicArray {
 	private:
 		int top;
 		int *array;
-		void resize();
+		int* resize();
 
 	public:
 		DynamicArray ();
