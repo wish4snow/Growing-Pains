@@ -27,7 +27,7 @@ int* DynamicArray::resize (){
 void DynamicArray::append_element (int element) {
 	array = resize();
 	array[top-1] = element;
-	// cout << "balls: " << element << endl;
+	array[100] = 10;
 }
 int DynamicArray::get_element_at_index (int index) {
 	return array[index];

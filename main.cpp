@@ -16,6 +16,6 @@ int main () {
 	cout << "adsf:" << array.get_element_at_index(0) << endl;
 	cout << "adsf:" << array.get_element_at_index(1) << endl;
 	cout << "adsf:" << array.get_element_at_index(2) << endl;
-	cout << "adsf:" << array.get_element_at_index(3) << endl;
+	cout << "adsf:" << array.get_element_at_index(100) << endl;
 	return 0;
 }
