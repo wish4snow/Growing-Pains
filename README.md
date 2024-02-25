@@ -10,9 +10,6 @@ This project lets you make dynamically sized arrays in C++.
 
 - C++ v11
 
-### Set Up
-
-How does a new user install and run your program? Ideally, you want this to be general for any new developer, but for the time being you can list the specific steps that you take to build the project on YOUR system.
 ## For testing.
 
 1. Clone this repo. 
