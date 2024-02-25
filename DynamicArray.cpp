@@ -13,9 +13,9 @@ int* DynamicArray::resize (){
 	int* temp = new int[size() + 1];
 
 	for (int i = 0; i < top; i++) {
-			temp[i] = array[i];
+		temp[i] = array[i];
 
-			cout << temp[i] << endl;
+		// cout << temp[i] << endl;
 	}
 	
 	delete [] array;
@@ -27,16 +27,23 @@ int* DynamicArray::resize (){
 void DynamicArray::append_element (int element) {
 	array = resize();
 	array[top-1] = element;
-	array[100] = 10;
 }
 int DynamicArray::get_element_at_index (int index) {
-	return array[index];
+	if (index >= 0 && index <= top && top != 0) {
+		return array[index];	
+	}
+
+	cout << "Out of range" << endl;
+	return 0;
+
+	
 }
 void DynamicArray::reset () {
-
+	top = 0;
 }
+
 int DynamicArray::size (){
-	return top + 1;
+	return top;
 }
 
 
